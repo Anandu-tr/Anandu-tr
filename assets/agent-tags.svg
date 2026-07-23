@@ -1,0 +1,21 @@
+<svg viewBox="0 0 900 104" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Agentic AI tags">
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" font-weight="500" text-anchor="middle">
+    <rect x="2" y="4" width="296" height="42" rx="12" fill="#241809" stroke="#8a5a24" stroke-width="2"/>
+    <circle cx="26" cy="25" r="4.5" fill="#2ea043"/>
+    <text x="162" y="30" fill="#f0e6d8">Agentic AI · Multi-agent / Swarm</text>
+    <rect x="310" y="4" width="104" height="42" rx="12" fill="#241809" stroke="#8a5a24" stroke-width="2"/>
+    <text x="362" y="30" fill="#f0e6d8">LangGraph</text>
+    <rect x="426" y="4" width="112" height="42" rx="12" fill="#241809" stroke="#8a5a24" stroke-width="2"/>
+    <text x="482" y="30" fill="#f0e6d8">Google ADK</text>
+    <rect x="550" y="4" width="104" height="42" rx="12" fill="#241809" stroke="#8a5a24" stroke-width="2"/>
+    <text x="602" y="30" fill="#f0e6d8">LangChain</text>
+    <rect x="666" y="4" width="60" height="42" rx="12" fill="#241809" stroke="#8a5a24" stroke-width="2"/>
+    <text x="696" y="30" fill="#f0e6d8">MCP</text>
+    <rect x="738" y="4" width="60" height="42" rx="12" fill="#241809" stroke="#8a5a24" stroke-width="2"/>
+    <text x="768" y="30" fill="#f0e6d8">RAG</text>
+    <rect x="2" y="58" width="168" height="42" rx="12" fill="#241809" stroke="#8a5a24" stroke-width="2"/>
+    <text x="86" y="84" fill="#f0e6d8">pgvector · Qdrant</text>
+    <rect x="182" y="58" width="240" height="42" rx="12" fill="#241809" stroke="#8a5a24" stroke-width="2"/>
+    <text x="302" y="84" fill="#f0e6d8">Tool-use / Function calling</text>
+  </g>
+</svg>
