@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 2
       - uses: czl9707/gh-space-shooter@v2
         with:
-          user_name: Anandu-tr
-          file_name: space-shooter.webp
+          username: Anandu-tr
+          output-path: space-shooter.webp
           strategy: random
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
