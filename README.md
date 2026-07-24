@@ -4,15 +4,23 @@
 automation, and real-time avatar calls, shipped end-to-end from the mobile app
 to the cloud infra.
 
-### Agentic AI Engineering
+## $\tiny\color{#eda35c}{\textsf{AGENTIC AI ENGINEERING}}$
 
 <img src="assets/agent-flow.svg" alt="Agent workflow: agent swarm → orchestrator (LangGraph/ADK) → MCP tool-use + RAG vector DBs → production" />
 
-<img src="assets/agent-tags.svg" alt="Agentic AI · Multi-agent/Swarm · LangGraph · Google ADK · LangChain · MCP · RAG · pgvector · Qdrant · Tool-use / Function calling" />
+<img src="https://img.shields.io/badge/Agentic_AI_·_Multi--agent_/_Swarm-6E40C9" height="26" alt="Agentic AI · Multi-agent / Swarm" />
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C" height="26" alt="LangGraph" />
+<img src="https://img.shields.io/badge/Google_ADK-4285F4" height="26" alt="Google ADK" />
+<img src="https://img.shields.io/badge/LangChain-2D6A4F" height="26" alt="LangChain" />
+<img src="https://img.shields.io/badge/MCP-0F4C81" height="26" alt="MCP" />
+<img src="https://img.shields.io/badge/RAG-8250DF" height="26" alt="RAG" />
+<img src="https://img.shields.io/badge/pgvector_·_Qdrant-BC4C00" height="26" alt="pgvector · Qdrant" />
+<img src="https://img.shields.io/badge/Tool--use_/_Function_calling-10454F" height="26" alt="Tool-use / Function calling" />
+<p>
 
-<sub>`ops` — ✓ traced & observable (OTel · Grafana · Sentry) · ✓ human-in-the-loop elicitation · ✓ cost-budgeted · ✓ tenant-isolated · ✓ threat-modeled</sub>
+$\small\color{#eda35c}{\textsf{OPS}}$ &nbsp; $\small\color{#3fb950}{\checkmark}$ $\small\color{#8b949e}{\textsf{traced \& observable (OTel, Grafana, Sentry)}}$ &nbsp; $\small\color{#3fb950}{\checkmark}$ $\small\color{#8b949e}{\textsf{human-in-the-loop elicitation}}$ &nbsp; $\small\color{#3fb950}{\checkmark}$ $\small\color{#8b949e}{\textsf{cost-budgeted}}$ &nbsp; $\small\color{#3fb950}{\checkmark}$ $\small\color{#8b949e}{\textsf{tenant-isolated}}$ &nbsp; $\small\color{#3fb950}{\checkmark}$ $\small\color{#8b949e}{\textsf{threat-modeled}}$
 
-### Stack
+## $\tiny\color{#eda35c}{\textsf{STACK}}$
 
 ![Python](https://img.shields.io/badge/Python/FastAPI-009688?logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
@@ -32,36 +40,27 @@ to the cloud infra.
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F6821F?logo=cloudflare&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white)
 
-### Shipped — behind closed doors
+## $\tiny\color{#eda35c}{\textsf{SHIPPED — BEHIND CLOSED DOORS}}$
 
-| | Problem | Built | Status |
-|---|---|---|---|
-| 💬 **WhatsApp accounting assistant** | SMEs won't open an ERP, but they answer WhatsApp in seconds | AI agent running invoices & books over chat — Odoo/Tally integration, multi-tenant Postgres RLS, serverless AWS | 🟢 In production |
-| 📍 **Field-ops location platform** | Field-staff GPS reporting where every dropped point is a dispute | Tamper-evident capture → buffered batch pipeline → route & distance reporting; [expo-livetrack](https://github.com/Anandu-tr/expo-livetrack) grew out of this | 🟢 In production |
-| 🎥 **Real-time AI video avatars** | Human-like calling experiences at software cost | LiveKit/WebRTC calling with AI-driven avatars — low-latency media plumbing meets agent orchestration | 🟢 In production |
+<img src="assets/shipped-whatsapp.svg" width="430" alt="WhatsApp accounting assistant — Problem: SMEs won't open an ERP but answer WhatsApp in seconds. Built: AI agent running invoices and books over chat with Odoo/Tally, multi-tenant Postgres RLS, serverless AWS. In production." /> <a href="https://github.com/Anandu-tr/expo-livetrack"><img src="assets/shipped-fieldops.svg" width="430" alt="Field-ops location platform — Problem: field-staff GPS reporting where every dropped point is a dispute. Built: tamper-evident capture, buffered batch pipeline, route and distance reporting; expo-livetrack grew out of this. In production." /></a> <img src="assets/shipped-avatars.svg" width="430" alt="Real-time AI video avatars — Problem: human-like calling experiences at software cost. Built: LiveKit/WebRTC calling with AI-driven avatars. In production." />
 
-The code is private; the thinking isn't — the avatar calling system, end to end:
+$\small\color{#8b949e}{\textsf{The code is private; the thinking is not - the avatar calling system, end to end:}}$
 
 <img src="assets/avatar-arch.svg" alt="Avatar calling architecture: Flutter app ↔ LiveKit SFU (media plane) → agent worker → streaming STT → LLM with tool-use → TTS → avatar renderer publishing video back; LLM → MCP business tools → Postgres RLS, Redis session memory" />
 
-### Expertise
+## $\tiny\color{#eda35c}{\textsf{EXPERTISE}}$
 
-<img src="assets/expertise.svg" alt="Expertise: end-to-end product delivery · resilient mobile systems · applied AI agents · real-time media · multi-tenant architecture · cost-lean cloud" />
+<img src="assets/expertise-1.svg" width="280" alt="End-to-end product delivery — app, API, and infrastructure, sketch to production, one pair of hands" /> <img src="assets/expertise-2.svg" width="280" alt="Resilient mobile systems — background execution past OS kills, offline-first data flows, tamper detection" /> <img src="assets/expertise-3.svg" width="280" alt="Applied AI agents — tool-use pipelines embedded in ERPs and daily business operations" /> <img src="assets/expertise-4.svg" width="280" alt="Real-time media — LiveKit/WebRTC avatar calling at production reliability" /> <img src="assets/expertise-5.svg" width="280" alt="Multi-tenant architecture — Postgres RLS isolation with provable tenant boundaries" /> <img src="assets/expertise-6.svg" width="280" alt="Cost-lean cloud — serverless designs tuned for small, predictable bills" />
 
-### Activity
+## $\tiny\color{#eda35c}{\textsf{ACTIVITY}}$
 
 <img src="assets/activity.svg" alt="Activity: contributions in the past year, current streak speedometer, longest streak" />
 
-### My contribution graph, under attack
+## $\tiny\color{#eda35c}{\textsf{MY CONTRIBUTION GRAPH, UNDER ATTACK}}$
 
 ![space shooter](space-shooter.webp)
 
-<sub>Regenerated daily by [gh-space-shooter](https://github.com/czl9707/gh-space-shooter) — each enemy is one day of commits; darker green means a tougher fight.</sub>
-
----
-
+<br>
 <p align="center">
-  <a href="mailto:YOUR_EMAIL"><img src="assets/icon-email.svg" width="46" alt="Email" /></a>
-  &nbsp;&nbsp;
-  <a href="YOUR_LINKEDIN"><img src="assets/icon-linkedin.svg" width="46" alt="LinkedIn" /></a>
+  <a href="mailto:anandutr01@gmail.com"><img src="assets/icon-email.svg" width="46" alt="Email" /></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/anandu-tr/"><img src="assets/icon-linkedin.svg" width="46" alt="LinkedIn" /></a>
 </p>

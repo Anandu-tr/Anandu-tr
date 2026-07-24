@@ -1,0 +1,6 @@
+<svg viewBox="0 0 280 94" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Resilient mobile systems: Background execution past OS kills, offline-first data flows, tamper detection.">
+  <rect x="14" y="10" width="26" height="4" rx="2" fill="#eda35c"/>
+  <text x="14" y="38" font-family="-apple-system,'Segoe UI',sans-serif" font-size="15" font-weight="650" fill="#f2f0ec">Resilient mobile systems</text>
+  <text x="14" y="60" font-family="-apple-system,'Segoe UI',sans-serif" font-size="12" fill="#9d958a">Background execution past OS kills,</text>
+  <text x="14" y="77" font-family="-apple-system,'Segoe UI',sans-serif" font-size="12" fill="#9d958a">offline-first data flows, tamper detection.</text>
+</svg>

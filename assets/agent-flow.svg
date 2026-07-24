@@ -1,5 +1,5 @@
 <svg viewBox="0 0 760 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Agent workflow: swarm of agents through an orchestrator, grounded by RAG and connected via MCP tools, shipping to production">
-  <rect width="760" height="180" rx="12" fill="#12100d"/>
+  <rect x="1" y="1" width="758" height="178" rx="12" fill="#1b140c" stroke="#5c4322" stroke-width="1.5"/>
   <g fill="none" stroke="#5c4322" stroke-width="1.6">
     <path id="eA1" d="M 78 52 Q 110 62 152 78"/>
     <path id="eA2" d="M 70 92 L 150 90"/>

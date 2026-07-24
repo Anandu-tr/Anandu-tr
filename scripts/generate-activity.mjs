@@ -41,7 +41,6 @@ const today = new Date().toISOString().slice(0, 10);
 const streakSub = current > 0 ? `${current} day${current === 1 ? "" : "s"} and counting` : "starts with today's commit";
 
 const svg = `<svg viewBox="0 0 680 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Activity: ${total} contributions past year, current streak ${current} days, longest ${longest} days">
-  <rect width="680" height="260" rx="12" fill="#0e0c0a"/>
   <g font-family="-apple-system,'Segoe UI',sans-serif" text-anchor="middle">
     <text x="115" y="115" font-size="34" font-weight="700" fill="#f2f0ec">${total.toLocaleString("en-US")}</text>
     <text x="115" y="145" font-size="13" font-weight="600" fill="#e6edf3">Total Contributions</text>
@@ -69,11 +68,10 @@ const svg = `<svg viewBox="0 0 680 260" xmlns="http://www.w3.org/2000/svg" role=
     <circle cx="100" cy="105" r="5.5" fill="#2ea043"/>
   </g>
   <g font-family="-apple-system,'Segoe UI',sans-serif" text-anchor="middle">
-    <text x="340" y="180" font-size="24" font-weight="700" fill="#2ea043">${current} <tspan font-size="13" fill="#8b949e">days</tspan></text>
+    <text x="340" y="180" font-size="24" font-weight="700" fill="#2ea043">${current} <tspan font-size="13" fill="#8b949e">day${current === 1 ? "" : "s"}</tspan></text>
     <text x="340" y="203" font-size="13" font-weight="700" fill="#2ea043">Current Streak</text>
     <text x="340" y="222" font-size="11" fill="#8b949e">${streakSub}</text>
   </g>
-  <text x="660" y="248" text-anchor="end" font-size="9" fill="#6e675e" font-family="ui-monospace,Menlo,monospace">updated ${today}</text>
 </svg>`;
 
 const { writeFileSync } = await import("node:fs");
